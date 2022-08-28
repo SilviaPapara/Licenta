@@ -1,0 +1,78 @@
+.livrare {
+    margin: 5% auto;
+    position: relative;
+    display: block;
+    width: 70%;
+}
+
+.bigText1 {
+    text-align: center;
+    color: #185f6a;
+    font-weight: bold;
+}
+
+.deliveryBox2 {
+    width: 320px;
+    height: 320px;
+    padding: 27px;
+    margin: 0;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #272727;
+    outline: solid 2px;
+}
+
+.deliveryBox2:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(254, 254, 254);
+    transition: 0.9s;
+}
+
+.deliveryBox3 {
+    width: 320px;
+    height: 320px;
+    padding: 27px;
+    margin: 0;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #272727;
+    outline: solid 2px;
+}
+
+.deliveryBox3:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(254, 254, 254);
+    transition: 0.9s;
+}
+
+.h4Livrare {
+    color: rgb(27, 27, 27);
+}
+.retur {
+    margin: 100px;
+}
+
+.pozitionareBox {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.retur {
+    text-align: center;
+
+    width: 350px;
+    height: 130px;
+    padding: 27px;
+    margin: auto;
+}
+.linie1 {
+    text-align: center;
+}
+
+.deliveryText1 {
+    font-weight: bold;
+}

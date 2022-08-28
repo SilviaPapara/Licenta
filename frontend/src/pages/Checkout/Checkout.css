@@ -1,0 +1,49 @@
+
+.checkBox1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tot {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info1 {
+    background-color: rgba(195, 189, 183, 255);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.butonOrder {
+    background-color: rgba(195, 189, 183, 255);
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-align: center;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.butonOrder:hover{
+    background-color: #111827;
+}
+
+
+.trimitere {
+    background-color: #f1f1f1;
+   
+}
+
+.wrapper1
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+.adresaDesign{
+   margin: 30px;
+}

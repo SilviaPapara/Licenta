@@ -1,0 +1,66 @@
+.containerr{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    outline: 5px dotted green;
+}
+
+
+.adress_form_button, .backBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    outline: 5px dotted rgb(128, 34, 0);
+}
+
+
+form .fields .input_field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+    outline: 5px dotted green;
+}
+.input_field label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input_field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.input_field input :focus,
+.input_field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input_field select,
+.input_field input[type="date"]{
+    color: #707070;
+}
+.input_field input[type="date"]:valid{
+    color: #333;
+}

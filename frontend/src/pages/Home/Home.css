@@ -1,0 +1,56 @@
+
+.bgColor .homePic {
+    display: block;
+    width: 650px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.button a {
+  background-color: rgb(255, 255, 255);
+  border:9;
+  color: rgb(12, 12, 12);
+  outline: solid 1px;
+}
+
+.orar{
+    color: rgb(215, 159, 18);
+}
+
+.homeText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+    
+}
+
+.bgColor {
+    background-color:rgb(255, 255, 255);
+    height: 700px;
+    position: relative;
+}
+
+.newDiv {
+    position: absolute;
+    left: 0;
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20%;
+}
+.CoffeeHouse{
+    color:#185f6a;
+    font-weight: bold;
+
+}

@@ -1,0 +1,40 @@
+
+.about {
+    margin: 100px;
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+.aboutPic {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+.bigText {
+    color: rgba(248, 109, 56, 255);
+    margin-bottom: auto;
+}
+
+.aboutText {
+ 
+    position:absolute;
+    top:170px;
+    margin-right: 700px;
+    margin-left: 150px;
+}
+
+.aboutButton{
+    background-color: #111827;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    text-align: center;
+    width: 140px;
+    height: 48px;
+}
+
+.aboutButton:hover {
+    background-color:rgba(248, 109, 56, 255);
+    transition: 0.7s;
+}

@@ -1,0 +1,40 @@
+.butonCont{
+    background-color: rgb(247, 247, 247);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;  
+    width: 320px;
+    height: 35px;
+
+}
+
+.butonLogOut{
+    position: relative;
+    left: 110px;
+    background-color: rgb(247, 247, 247);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;  
+    width: 100px;
+    height: 35px;
+}
+
+.butonLogOut:hover {
+    background-color:#e68046;
+    transition: 0.7s;
+}
+
+.butonCont:hover {
+    background-color:#ffe1af;
+    transition: 0.7s;
+}
+.titleAccount{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(211, 211, 211);
+}
+
+.linie{
+    width:22%;
+}
+
